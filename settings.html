@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="settings_style.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- La Cuisine Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<!-- header -->
+
+<header class="main-header">
+    <h1 class="logo">
+        <img src="LOGO-PLACEHOLDER" alt="La Cousine Logo" class="logo-img">
+        La Cousine
+    </h1>
+    <nav class="nav-links">
+        <a href="home">Home</a>
+        <a href="about">About</a>
+        <a href="favorites"><i class="fa-solid fa-heart"></i> Favorites</a>
+        <a href="profile">
+            <img src="PLACEHOLDER" alt="profpic" class="profile-pic">Profile
+        </a>
+    </nav>
+</header>
+
+<!-- settings -->
+
+<main class="setting">
+    <div class="setting-float-panel"> 
+        <aside class="sidebar"> <!-- side panel -->
+            <ul>
+                <li class="current">General</li>
+                <li>Edit Profile</li>
+                <li>Security</li>
+                <li>Privacy</li>
+                <li class="logout-button">Log Out</li>
+            </ul>
+        </aside>
+
+<!-- main panel/general panel -->
+
+        <section class="content">
+            <div class="profile-area">
+                <div class="setting-pfp-avatar">
+                    <img src="PFP-PLACEHOLDER">
+                </div>
+                <div>
+                    <h2>Peter Griffin</h2>
+                    <button type="button" class="change-photo">Change Photo</button>
+                </div>
+            </div>
+            
+
+            <form class="input-forms">
+                <div class="input-info">
+                    <div class="name-input">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" value="Input Full Name">
+                    </div>
+                    <div class="username-input">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" value="Input Username">
+                    </div>
+                    <div class="email-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="@gmail.com">
+                    </div>
+                    <div class="language-input">
+                        <label>Language</label>
+                        <div class="language-options">
+                            <button type="button" class="active-language"><img src="US-PLACEHOLDER" alt="English(US)"></button>
+                            <button type="button" class="language"><img src="ID-PLACEHOLDER" alt="Indonesian"></button>
+                            <button type="button" class="language"><img src="JP-PLACEHOLDER" alt="Japanese"></button>
+                            <button type="button" class="language"><img src="CN-PLACEHOLDER" alt="Mandarin"></button>
+                            <button type="button" class="language"><img src="IN-PLACEHOLDER" alt="Hindi"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="general-forms">
+                    <button type="submit" class="save-button">Save Changes</button>
+                </div>
+            </form>
+
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<!-- footer -->
+
+<footer class="Footer">
+    <div class="footer-container">
+
+        <div class="footer-brand-section">
+            <h2>La Cuisine</h2>
+            <p>Fresh and halal meals made easy</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="favorites">Favorites</a>
+            <a href="profile">Profile</a>
+        </div>
+
+        <div class="socials">
+            <h3>Follow Us</h3>
+            <div class="socials-icon">
+                <a href="SOCIALS-PLACEHOLDER"><i class="fa-brands fa-facebook"></i></a>
+                <a href="SOCIALS-PLACEHOLDER"><i class="fa-brands fa-instagram"></i></a>
+                <a href="SOCIALS-PLACEHOLDER"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="SOCIALS-PLACEHOLDER"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2025 LaCuisine. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
