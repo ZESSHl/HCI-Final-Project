@@ -60,6 +60,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 6px;
+    padding: 4px;
 }
 
 .nav-links a i {
