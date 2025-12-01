@@ -229,11 +229,4 @@ body {
 
 /* footer */
 
-.footer-image {
-    width: 1440px;
-    height: 313px;
-    background-image: url("images/Footer.png"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
