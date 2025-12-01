@@ -48,7 +48,7 @@ body {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 32p;
+    gap: 38px;
     font-size: 32;
 }
 
@@ -229,4 +229,79 @@ body {
 
 /* footer */
 
+.footer {
+    margin: 0 auto;
+    padding: 32px 64px 16px;
+    background: url(images/Body-2.png) lightgray 50% / cover no-repeat;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-brand-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 9px ;
+    margin-left: 350px;
+}
+
+.footer-brand-section p {
+    font-size: 24px;
+    color: #ffffff;
+    max-width: 351px;
+    margin-left: 346px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.socials h3 {
+    font-size: 24px;
+    margin-bottom: 19px;
+    margin-right: 328px;
+}
+
+.socials-icon {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    fill: #ffffff;
+    margin-right: 301px;
+}
+
+.socials-icon a {
+    color: #ffffff;
+}
+
+.socials-icon a:hover {
+    color: #bbbbbb;
+}
+
+.copyright p {
+    border-top: 1px solid #ffffff;
+    padding-top: 18px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
